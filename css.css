@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Glitch&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.conteiner {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.nav-menu {
+    background-color: #0B0A0A;
+    max-height: 134px;
+
+}
+
+.logo {
+    margin-top: 9px;
+}
+
+.menu {
+    max-width: 1918px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logomenu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu li {
+    margin-right: 80px;
+    font-family: 'Rubik Glitch';
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.search {
+    width: 73px;
+    height: 43px;
+    margin-top: 43px;
+}
+
+.intro {
+    background-color: #090909;
+    padding-top: 216px;
+    text-align: center;
+    background-image: url(img/Component\ 4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 855px;
+}
+
+.conteiner {
+    background-color: #090909;
+}
+
+.body h1 {
+    margin-top: 61px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.body {
+    max-width: 1402px;
+    margin: 0 auto;
+
+}
+
+.columb {
+    max-width: 495px;
+    text-align: center;
+    margin-right: 31px;
+}
+
+.columb p {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.row {
+    display: flex;
+}
+
+footer img {
+    margin-top: 197px;
+    max-width: 100%;
+
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+
+
+footer a {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    height: 228px;
+    width: 834px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 121px;
+    line-height: 151px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 71px;
+    margin-top: 249px;
+    max-width: 100%;
+
+}
+
+.footerimg {
+    margin-top: 41px;
+    margin-left: 14px;
+}
+
+footer p {
+    margin-left: 85px;
+}
+@media screen and (max-width: 1400px) {
+    .row {
+        display: block;
+    }
+  
+}
+@media screen and (max-width: 980px) {
+    .menu ul {
+        display: block;
+    }
+    .logomenu {
+        display: block;
+    }
+}
+@media screen and (max-width: 764px) {
+   footer a {
+       font-size: 55px;
+   }
+}
+@media screen and (max-width: 472px) {
+    footer a {
+        font-size: 32px;
+    }
+ }
+ @media screen and (max-width: 430px) {
+    .row img {
+        max-width: 100%;
+    }
+    footer img {
+        visibility: hidden;
+    }
+ }
+ @media screen and (max-width: 364px) {
+    .body h1 {
+        font-size: 96px;
+    }
+    .menu {
+        display: block;
+    }
+    footer a {
+        display: block;
+    }
+    footer p {
+        margin: 0px;
+        max-width: 250px;
+    }
+ }
